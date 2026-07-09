@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "sgnl.lifesteal.combat.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CombatCommand",
+    "OnGameTick",
+    "OnPlayerAttack",
+    "OnPlayerDeath",
+    "OnPlayerLeave",
+    "bans.EnderPearlLimit",
+    "bans.ExecutingCommands",
+    "bans.FirstHits"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

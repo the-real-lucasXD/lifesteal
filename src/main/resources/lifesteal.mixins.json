@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "sgnl.lifesteal.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "OnGameTick",
+    "OnMaceAnvilUse",
+    "OnMaceEnchant",
+    "OnReceiveDisplayName",
+    "OnServerStart",
+    "OnSystemMessage",
+    "OnVoteStopButton",
+    "OnWorldSave",
+    "commands.VoteStopCommand",
+    "recipeManager.GenericRecipeManager",
+    "recipeManager.MaceRecipeManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "lifesteal",
+	"version": "${version}",
+	"name": "Lifesteal",
+	"description": "A multipurpose Minecraft Fabric mod that recreates the hearts system in the Lifesteal SMP, alongside other features like custom moderation commands, crafting recipes, and a combat system. Mainly designed and used for a private Minecraft server.",
+	"authors": [
+		"Lucas Loh"
+	],
+	"contact": {
+		"sources": "https://github.com/the-real-lucasXD/lifesteal"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sgnl.lifesteal.Lifesteal"
+		]
+	},
+	"mixins": [
+		"lifesteal.mixins.json",
+		"lifesteal.player.mixins.json",
+		"lifesteal.combat.mixins.json",
+		"lifesteal.hearts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

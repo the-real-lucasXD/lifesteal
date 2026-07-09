@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "sgnl.lifesteal.heart.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HeartCommand",
+    "OnGameTick",
+    "OnPlayerDeath",
+    "OnRightClick",
+    "WithdrawCommand"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
