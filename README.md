@@ -34,4 +34,4 @@ This mod is mainly designed not for public purposes, but for use in a private Mi
 
 ## License
 
-This project is licensed under the MIT license - see [LICENSE](License) for more details.
+This project is licensed under the MIT license - see [LICENSE](LICENSE) for more details.
