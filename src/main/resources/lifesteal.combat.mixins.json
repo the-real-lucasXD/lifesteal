@@ -10,6 +10,7 @@
     "OnPlayerLeave",
     "bans.EnderPearlLimit",
     "bans.ExecutingCommands",
+    "bans.Fire",
     "bans.FirstHits"
   ],
   "injectors": {
