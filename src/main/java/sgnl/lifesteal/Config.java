@@ -55,6 +55,8 @@ public class Config {
   
   public int combatDuration = 1200;
   public int enderPearlsPerCombat = 32;
+  public int cobwebsPerCombat = 128;
+  public int xpPerCombat = 128;
 
   public HashMap<String, Player> players = new HashMap<>();
 

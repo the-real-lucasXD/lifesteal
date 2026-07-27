@@ -11,6 +11,8 @@ import java.util.UUID;
 public class Combat {
   public int ticksLeft;
   public int pearlsUsed = 0;
+  public int cobwebUsed = 0;
+  public int xpUsed = 0;
   public ServerBossEvent bossBar;
   public Player player;
   public Player attacker;

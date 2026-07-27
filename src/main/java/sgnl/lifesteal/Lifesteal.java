@@ -17,7 +17,7 @@ public class Lifesteal implements ModInitializer {
 	public void onInitialize() {
 		try {
 			Config.init(FabricLoader.getInstance().getConfigDir());
-			
+
 			LOGGER.info("Successfully loaded lifesteal mod");
 		} catch (Exception e) {
 			LOGGER.error("Failed to load lifesteal mod", e);

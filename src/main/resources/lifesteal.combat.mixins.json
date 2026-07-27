@@ -8,10 +8,16 @@
     "OnPlayerAttack",
     "OnPlayerDeath",
     "OnPlayerLeave",
+    "bans.CobwebLimit",
     "bans.EnderPearlLimit",
     "bans.ExecutingCommands",
     "bans.Fire",
-    "bans.FirstHits"
+    "bans.FirstHits",
+    "bans.MaceNerf",
+    "bans.MendingLimit",
+    "bans.OpeningBarrels",
+    "bans.OpeningChests",
+    "bans.OpeningEnderChests"
   ],
   "injectors": {
     "defaultRequire": 1
