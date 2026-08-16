@@ -5,8 +5,6 @@
   "mixins": [
     "InfiniteVaults",
     "OnGameTick",
-    "OnMaceAnvilUse",
-    "OnMaceEnchant",
     "OnReceiveDisplayName",
     "OnServerStart",
     "OnSystemMessage",
@@ -14,6 +12,7 @@
     "OnWorldSave",
     "commands.VoteStopCommand",
     "recipeManager.GenericRecipeManager",
+    "recipeManager.LongStrongSpeedRecipe",
     "recipeManager.LongStrongStrengthRecipe",
     "recipeManager.MaceRecipeManager"
   ],
